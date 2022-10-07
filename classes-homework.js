@@ -115,3 +115,10 @@ class Pirate {
   blackPearl[2].drinks()
   blackPearl[2].speaks()
 
+
+const pirateVessel = [jollyRogers, blackPearl]
+pirateVessel.forEach(function(vessel) {
+    for(let x = 0; x < vessel.length; x++) {
+    console.log(vessel[x]);
+    }
+})
